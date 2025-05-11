@@ -61,7 +61,7 @@ if __name__ == "__main__":
         controlnet_model_list.append(controlnet)
     controlnet = MultiControlNetModel(controlnet_model_list)
     
-    base_model_path = 'stabilityai/stable-diffusion-xl-base-1.0'
+    base_model_path = 'SG161222/RealVisXL_V5.0'
 
     pipe = StableDiffusionXLInstantIDPipeline.from_pretrained(
         base_model_path,
